@@ -247,7 +247,7 @@ defaults:
 
 
 prose:
-  rooturl: '_posts'
+  #rooturl: '_posts'
   siteurl: 'http://halfnelson.github.io'
   relativeLinks: 'http://halfnelson.github.io/links.jsonp'
   media: "/assets/images"
@@ -269,4 +269,3 @@ prose:
           element: "text"
           label: "Title"
           placeholder: "title"
-          
