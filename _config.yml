@@ -241,6 +241,28 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false # true
       share: true
       related: true
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://halfnelson.github.io'
+  relativeLinks: 'http://halfnelson.github.io/links.jsonp'
+  media: "/assets/images"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "text"
+          value: "single"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Add Categories"
+          alterable: true
+      - name: "title"
+        field:
+          element: "text"
