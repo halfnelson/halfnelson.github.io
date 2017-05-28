@@ -255,6 +255,7 @@ prose:
     _posts:
       - name: "layout"
         field:
+          label: "layout"
           element: "text"
           value: "single"
       - name: "categories"
@@ -266,3 +267,6 @@ prose:
       - name: "title"
         field:
           element: "text"
+          label: "Title"
+          placeholder: "title"
+          
