@@ -1,6 +1,6 @@
 ---
 layout: single
-published: false
+published: true
 title: First Post!
 ---
 ## A New Post
