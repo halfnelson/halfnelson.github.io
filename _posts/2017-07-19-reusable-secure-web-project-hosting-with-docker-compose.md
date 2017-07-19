@@ -4,14 +4,16 @@ published: true
 title: 'Secure web project hosting with docker-compose, nginx, and LetsEncrypt'
 ---
 
-Thanks to docker-compose, lets-encrypt and VPS providers we can cheaply host many little web projects with full https support including auto renewing certificates
+Thanks to docker, lets-encrypt and nginx we can host many little web projects with full https support on a single cheap VPS.
+
+Perfect for all those side projects that are easy to get going in node, but a pain to wrap with nginx and ssl configurations.
 
 ## Goals
  
  * A place to host little nodejs/dotnet-core/ruby projects
  * Ideally the projects can be run locally on developers computer just as easily
  * Expose projects on their own domains or subdomains
- * Provide vhost support with SSL for each project managed
+ * Provide vhost support with SSL for each project managed for us by letsencrypt
  * Easy to rebuild if changing VPS provider
 
 ## Our Solution:
@@ -22,25 +24,26 @@ Thanks to docker-compose, lets-encrypt and VPS providers we can cheaply host man
  * A docker instance that runs nginx and auto configures vhosts and renews and obtains letsencrypt certificates
   
 
-### A cheap ubuntu VPS running docker and docker compose
+## A cheap ubuntu VPS running docker and docker compose
 
-Grab yourself a cheap ubuntu VPS (16.04 LTS preferrably). I use https://www.binarylane.com.au/ because the developers are awesome.
+Grab yourself a cheap ubuntu VPS (16.04 LTS preferrably). I use [Binary Lane](https://www.binarylane.com.au/) (because the developers are awesome).
 
-To get docker up and running we follow this guide [this guide.](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository)
+To get docker up and running we follow [this guide.](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository)
 
 Docker installed from package doesn't include docker-compose. Instead you are meant to grab the latest binary from the [docker compose releases](https://github.com/docker/compose/releases) page on github.
+
 Grab one and install it as explained on the releases page.
 
 
-### A docker-compose network to carry the internal traffic from nginx to our apps
+## A docker-compose network to carry the internal traffic from nginx to our apps
 
 We would like the docker containers to all be able to talk to each other, preferrably through some internal interfaces so that each application can use its preferred port numbers and remains hidden from the public accessible IP of the VPS. 
 
-![Container Layout]({{site.baseurl}}/assets/images/container-layout.svg)
+![container-layout.png]({{site.baseurl}}/assets/images/container-layout.png)
 
-Docker allows you to define a network and give it a name. Docker compose configurations can reference the network by name and expose services on the network with aliases. This allows the nginx container to proxy traffic to the application containers without having the application containers specified in the same docker-compose configuration file.
+By default docker containers are on the `default` network. To help keep our web accessible containers apart from any other fiddling we might do on the host, docker allows you to define an alternate internal network and give it a name. Docker compose configurations can reference the network by name and expose services on the network with aliases. This allows the nginx container to proxy traffic to the application containers without having the application containers specified in the same docker-compose configuration file.
 
-to create the network we run:
+to create a network called `nginx` we run:
 
 ```sh
 $ sudo docker network create nginx
@@ -48,11 +51,12 @@ $ sudo docker network create nginx
 
 With our network spun up we can add our first application.
 
-### A docker instance for each node/ruby/dotnet core endpoint to sit behind nginx
+## A docker instance for each node/ruby/dotnet core endpoint to sit behind nginx
 
-We will spin up a simple application as an example.
+We will spin up a simple nodje hellow world application as an example.
 
 Create a folder called `hello-world` and paste the following into `docker-compose.yml`
+
 ```yml
 version: '3'
 services:
@@ -72,7 +76,7 @@ networks:
 
 This configures a service called `hello-world` from an image I found on [docker-hub](https://hub.docker.com/r/ashleybarrett/node-hello-world/), and runs on the `nginx` network (we have already configured) with the alias `helloworld`
 
-The `networks` section at the bottom tells docker-compose that we have already defined the `nginx` network and that it is external to this file. It will look for, and attach to, the network when we spin up the services. Note that we didn't need to expose any ports, any opened ports will already be visible on the nginx network.
+The `networks` section at the bottom tells docker-compose that we have already defined the `nginx` network and that it is external to this file. It will look for, and attach to, the network when we spin up the services. Note that we didn't need to expose any ports, any ports opened by the application will be visible on the nginx network.
 
 We can test our compose file by running `sudo docker-compose up -d` in the `hello-world` folder, and we should see it download the image and start the container:
 
@@ -126,7 +130,7 @@ $
 Our container is exposed on the nginx network ready for us to put an nginx container in front.
 
 
-### A docker instance that runs nginx and auto configures vhosts and renews and obtains letsencrypt certificates
+## A docker instance that runs nginx and auto configures vhosts and renews and obtains letsencrypt certificates
 
 To proxy incoming web requests to the relevant docker containers and to provide SSL termination for those requests, we need an instance of nginx configured with each docker container as a vhost and certificates for each domain. We will use the https-portal docker container that is introduced [in this blog post](https://steveltn.me/a-brief-introduction-to-https-portal-80bb3286eebc)
 and is hosted on github [here](https://github.com/SteveLTN/https-portal)
@@ -167,12 +171,10 @@ Spin it up with
 $ sudo docker-compose up -d
 ```
 
-and you should be able to hit `yourdomain.com` and see `Hello World`
+and you should be able to hit `http://yourdomain.com` and see `Hello World`. You should also be able to hit `https://yourdomain.com` and see that you have a secure site. The certificates are automatically renewed by the nginx docker container and are free.
 
 To add another applications, just add another docker container on the nginx network, and add the domain to the domains environment variable config for https-portal 
 
 ```yml
 - "DOMAINS=app1.yourdomain.com -> http://app1:8080, app2.yourdomain.com -> http://app2:8080"
 ```
-
-
