@@ -79,7 +79,9 @@ This configures a service called `hello-world` from an image I found on [docker-
 
 The `networks` section at the bottom tells docker-compose that we have already defined the `nginx` network and that it is external to this file. It will look for, and attach to, the network when we spin up the services. 
 
-Note that we didn't need to expose any ports, any ports opened by the application will be visible on the nginx network.{: .notice}
+<div class="notice">
+Note that we didn't need to expose any ports, any ports opened by the application will be visible on the nginx network.
+</div>
 
 We can test our compose file by running `sudo docker-compose up -d` in the `hello-world` folder, and we should see it download the image and start the container:
 
