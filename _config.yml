@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Halfnelson's Blog'"
+title                    : "Halfnelson's Blog"
 title_separator          : "-"
 name                     : "David Pershouse"
 description              : "I was told I should write things"
