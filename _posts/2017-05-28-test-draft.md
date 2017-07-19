@@ -1,6 +1,6 @@
 ---
 layout: single
-published: false
+published: true
 title: Test draft
 ---
 ## Do Headings Work?
