@@ -1,6 +1,6 @@
 ---
 layout: single
-published: false
+published: true
 title: 'Secure web project hosting with docker-compose, nginx, and LetsEncrypt'
 ---
 
