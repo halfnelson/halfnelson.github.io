@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="208mm"
+   height="105mm"
+   viewBox="0 0 208 105"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="container-layout.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="80.387338"
+     inkscape:cy="263.20283"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="208mm"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-192)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4491"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.24796233,0,0,0.26458333,2.4103986,190.97246)"><flowRegion
+         id="flowRegion4493"><rect
+           id="rect4495"
+           width="221.42859"
+           height="187.14287"
+           x="38.57143"
+           y="146.8504" /></flowRegion><flowPara
+         id="flowPara4497" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1.05833333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.23333333,4.23333333;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 56.129464,193.43453 56.50744,296.24405"
+       id="path4682"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g4515"
+       transform="translate(1.1339286,6.4255952)">
+      <rect
+         y="210.44345"
+         x="36.663692"
+         height="52.916664"
+         width="46.49107"
+         id="rect4485"
+         style="fill:#87decd;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,29.860119,192.75596)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:43.88031387px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot4499"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:43.88031387px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+           id="flowRegion4501"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:43.88031387px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+             y="101.1361"
+             x="24.285715"
+             height="200.00002"
+             width="175.71428"
+             id="rect4503" /></flowRegion><flowPara
+           id="flowPara4505">Nginx </flowPara><flowPara
+           id="flowPara4586">Docker Container</flowPara><flowPara
+           id="flowPara4507" /></flowRoot>      <path
+         style="fill:#ff0000;stroke:#ff0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 2.6458332,237.27976 H 36.285713"
+         id="path4584"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="37.041664"
+         y="286.79465"
+         id="text4590"><tspan
+           sodipodi:role="line"
+           id="tspan4588"
+           x="37.041664"
+           y="293.14285"
+           style="stroke-width:0.26458332" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f30000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+         x="6.4255953"
+         y="235.76785"
+         id="text4594"><tspan
+           sodipodi:role="line"
+           id="tspan4598"
+           x="6.4255953"
+           y="235.76785">Public IP:443</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="117.00253"
+         y="208.23982"
+         id="text4594-8"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan4598-8"
+           x="117.00253"
+           y="208.23982">Internal IP:3000</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="116.86965"
+         y="233.9422"
+         id="text4594-8-6"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan4598-8-6"
+           x="116.86965"
+           y="233.9422">Internal IP:3000</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+         x="117.24762"
+         y="265.6922"
+         id="text4594-8-61"><tspan
+           sodipodi:role="line"
+           id="tspan4644">Internal IP:9999</tspan></text>
+    </g>
+    <g
+       id="g4534"
+       transform="translate(41.955357)"
+       style="fill:#37abc8">
+      <rect
+         y="207.41965"
+         x="113.77083"
+         height="15.875"
+         width="32.127975"
+         id="rect4517"
+         style="fill:#37abc8;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-0.37797619,196.91369)"
+         style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:25px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;"
+         id="flowRoot4519"
+         xml:space="preserve"><flowRegion
+           style="font-size:17.33333397px;text-align:center;text-anchor:middle;fill:#000000;"
+           id="flowRegion4521"><rect
+             style="font-size:17.33333397px;text-align:center;text-anchor:middle;fill:#000000;"
+             y="58.27898"
+             x="429.99997"
+             height="60"
+             width="121.42857"
+             id="rect4523" /></flowRegion><flowPara
+           id="flowPara4525">App1</flowPara></flowRoot>    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 84.666665,242.94941 h 21.166665 v -26.08036 l 50.64881,0.37798"
+       id="path4527"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <g
+       transform="translate(42.144351,29.482139)"
+       id="g4534-9"
+       style="fill:#37abc8">
+      <rect
+         y="207.41965"
+         x="113.77083"
+         height="15.875"
+         width="32.127975"
+         id="rect4517-0"
+         style="fill:#37abc8;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-0.37797619,196.91369)"
+         style="font-style:normal;font-weight:normal;font-size:17.33333355px;line-height:25px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         id="flowRoot4519-0"
+         xml:space="preserve"><flowRegion
+           style="font-size:17.33333355px;text-align:center;text-anchor:middle;fill:#000000;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           id="flowRegion4521-9"><rect
+             style="font-size:17.33333355px;text-align:center;text-anchor:middle;fill:#000000;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+             y="58.27898"
+             x="429.99997"
+             height="60"
+             width="121.42857"
+             id="rect4523-5" /></flowRegion><flowPara
+           id="flowPara4646">App2</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(42.144351,57.452377)"
+       id="g4534-97"
+       style="fill:#37abc8">
+      <rect
+         y="207.41965"
+         x="113.77083"
+         height="15.875"
+         width="32.127975"
+         id="rect4517-02"
+         style="fill:#37abc8;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-0.37797619,196.91369)"
+         style="font-style:normal;font-weight:normal;font-size:17.33333355px;line-height:25px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         id="flowRoot4519-4"
+         xml:space="preserve"><flowRegion
+           style="font-size:17.33333355px;text-align:center;text-anchor:middle;fill:#000000;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           id="flowRegion4521-6"><rect
+             style="font-size:17.33333355px;text-align:center;text-anchor:middle;fill:#000000;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+             y="58.27898"
+             x="429.99997"
+             height="60"
+             width="121.42857"
+             id="rect4523-9" /></flowRegion><flowPara
+           id="flowPara4648">App3</flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="-31.938993"
+         y="193.81252"
+         id="text4652"><tspan
+           sodipodi:role="line"
+           id="tspan4650"
+           x="-31.938993"
+           y="193.81252"
+           style="font-size:6.3499999px;fill:#000000;stroke-width:0.26458332">Https</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:6.61458349px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="45.156708"
+         y="194.34825"
+         id="text4652-7"
+         inkscape:transform-center-y="-22.678574"><tspan
+           sodipodi:role="line"
+           id="tspan4650-5"
+           x="45.156708"
+           y="194.34825"
+           style="font-size:6.3499999px;fill:#000000;stroke-width:0.26458332">Http</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156.10417,242.94941 h -50.27084 v 31.37202 h 49.89286"
+       id="path4582"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>
