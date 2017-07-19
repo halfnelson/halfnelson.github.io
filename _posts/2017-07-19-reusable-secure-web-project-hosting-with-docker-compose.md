@@ -57,7 +57,8 @@ We will spin up a simple nodje hellow world application as an example.
 
 Create a folder called `hello-world` and paste the following into `docker-compose.yml`
 
-```yaml
+```yml
+
 version: '3'
 services:
 
