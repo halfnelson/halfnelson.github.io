@@ -53,7 +53,7 @@ With our network spun up we can add our first application.
 
 ## A docker instance for each node/ruby/dotnet core endpoint to sit behind nginx
 
-We will spin up a simple nodje hellow world application as an example.
+We will spin up a simple node hello world application as an example.
 
 Create a folder called `hello-world` and paste the following into `docker-compose.yml`
 
