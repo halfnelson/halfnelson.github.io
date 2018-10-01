@@ -34,6 +34,7 @@ body {
     display: block;
     margin: 0 auto;
     user-select: none;
+    touch-action: none;
 }
 
 .letter-grid.cols-4 {
@@ -95,7 +96,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    
+    touch-action: none;
     font-size: 3rem;
     display: inline-block;
     width: 4rem;
