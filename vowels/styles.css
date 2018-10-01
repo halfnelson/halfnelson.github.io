@@ -34,11 +34,18 @@ body {
     display: block;
     margin: 0 auto;
     user-select: none;
-    
+}
 
+.letter-grid.cols-4 {
+    width: 16rem;
+    height: 16rem;
 }
 
 
+.letter-grid.cols-5 {
+    width: 20rem;
+    height: 20rem;
+}
 
 .progress {
     font-size: 1.2rem;
