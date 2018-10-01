@@ -62,6 +62,9 @@ body {
     box-sizing: border-box;
     height: 12rem;
 }
+.grid-complete a {
+    cursor: pointer;
+}
 
 .grid-complete h1 {
     font-weight: normal;
