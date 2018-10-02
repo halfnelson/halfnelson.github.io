@@ -6,10 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vowels</title>
 	<link rel="stylesheet" href="styles.css" />
+	<link rel="manifest" href="manifest.webmanifest" />
+	<script src="manup.js"></script>
 	</head>
 
 <body>
-    <div id="root"></div>
+		<noscript>
+				<h1>So Sorry!</h1>
+				<p>I tried but couldn't make this game in pure html and css.</p>
+				<p>Please enable javascript.</p>
+		</noscript>
+	<div id="root"></div>
+	
 	<script src="main.js"></script>
 	<script>
 		if (navigator.serviceWorker.controller) {

@@ -32,9 +32,14 @@ body {
     align-items: center;
     justify-content: space-around;
     min-height: 400px;
+    max-width: 100%;
+    width: 100%;
 }
 
-
+.game-container * {
+    user-select: none;
+    touch-action: none;
+}
 
 .letter-grid {
     width: 12rem;
