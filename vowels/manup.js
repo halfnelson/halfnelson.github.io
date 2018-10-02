@@ -69,10 +69,12 @@ var generateMetaArray = function () {
     var headTarget = document.getElementsByTagName('head')[0]
     for (var i = 0; i < tempMetaArray.length; i++) {
 
-        var metaTag = document.createElement('meta');
-        metaTag.name = tempMetaArray[i].name;
-        metaTag.content = tempMetaArray[i].content;
-        headTarget.appendChild(metaTag);
+        if (tempMetaArray[i].content && tempMetaArray[i].content != "undefined") {
+            var metaTag = document.createElement('meta');
+            metaTag.name = tempMetaArray[i].name;
+            metaTag.content = tempMetaArray[i].content;
+            headTarget.appendChild(metaTag);
+        }
 
     };
 
@@ -82,12 +84,13 @@ var generateLinkArray = function () {
     var tempLinkArray = generateFullLinkData();
     var headTarget = document.getElementsByTagName('head')[0]
     for (var i = 0; i < tempLinkArray.length; i++) {
-
-        var linkTag = document.createElement('link');
-        linkTag.setAttribute('rel', tempLinkArray[i].name);
-        linkTag.setAttribute('sizes', tempLinkArray[i].imageSize);
-        linkTag.setAttribute('href', tempLinkArray[i].content);
-        headTarget.appendChild(linkTag);
+        if (tempLinkArray[i].content && tempLinkArray[i].content != "undefined") {
+            var linkTag = document.createElement('link');
+            linkTag.setAttribute('rel', tempLinkArray[i].name);
+            linkTag.setAttribute('sizes', tempLinkArray[i].imageSize);
+            linkTag.setAttribute('href', tempLinkArray[i].content);
+            headTarget.appendChild(linkTag);
+        }
         //console.log(linkTag);
     }
 };
