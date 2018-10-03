@@ -4,25 +4,28 @@
 
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     padding: 0;
     margin: 0;
-    background-color: #fcfafa;
-    background: radial-gradient(#fcfafa, #e6e6e6);
-    background-repeat: no-repeat;
-    position: fixed;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    position: fixed;
 }
 
 #root {
+    background-color: #fcfafa;
+    background: radial-gradient(#fcfafa, #e6e6e6);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 .game-container {
