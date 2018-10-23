@@ -4,35 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Vowels</title>
+	<meta http-equiv="refresh" content="1; url=https://vowels.io">
+	<title>Vowels Has Moved</title>
 	<link rel="stylesheet" href="styles.css" />
-	<link rel="manifest" href="manifest.webmanifest" />
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-	<script src="manup.js"></script>
 	</head>
 
 <body>
-		<noscript>
-				<h1>So Sorry!</h1>
-				<p>I tried but couldn't make this game in pure html and css.</p>
-				<p>Please enable javascript.</p>
-		</noscript>
-	<div id="root"></div>
-	
-	<script src="main.js"></script>
-	<script>
-		if (navigator.serviceWorker.controller) {
-			console.log('[PWA Builder] active service worker found, no need to register')
-		} else {
-			//Register the ServiceWorker
-			navigator.serviceWorker.register('pwabuilder-sw.js', {
-				scope: './'
-			}).then(function (reg) {
-				console.log('Service worker has been registered for scope:' + reg.scope);
-			});
-		}
-	</script>
-	</body>
+	<div id="root">
+	<h1 style="font-family: 'Crimson'; font-weight:normal">Vowels has moved</h1>
+	<p>Vowels has a new home at <a href="https://vowels.io">https://vowels.io</a>. Redirecting now..</p>
+	</div>
+</body>
 
 </html>
